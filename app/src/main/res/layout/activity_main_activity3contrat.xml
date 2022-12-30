@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3contrat"
+    android:background="@drawable/img">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/c1">
+
+        <TextView
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/contrattxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contrat  "
+            android:gravity="center"
+            android:textSize="50dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/c2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c1"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/EditRecherche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/EditRecherche"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:hint="Rechercher"
+
+            />
+        <Button
+            android:id="@+id/button"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/purple_200"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="221dp"
+            android:text="Rechercher" />
+        <EditText
+            android:id="@+id/dated2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="DateDébut"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/datef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="DateFin"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/redevancevalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Redevance"
+            android:inputType="numberDecimal" />
+
+
+
+        <EditText
+            android:id="@+id/NomClient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Nom Client " />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/purple_200"
+            android:layout_height="wrap_content"
+            android:text="Rechercher le client " />
+
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/x2"
+        android:layout_below="@+id/c2"
+        >
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/white"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginLeft="10dp"
+            android:text="Ajouter"
+
+            />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+
+            android:textColor="@color/white"
+            android:backgroundTint="@color/purple_200"
+            android:layout_height="wrap_content"
+            android:text="Mise A jour" />
+
+        <Button
+
+            android:layout_marginLeft="10dp"
+            android:id="@+id/button8"
+
+            android:textColor="@color/white"
+            android:backgroundTint="@color/purple_200"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Supprimer" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/x2"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+
+            android:textColor="@color/white"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:text="Sauvegarder" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+
+            android:textColor="@color/white"
+            android:backgroundTint="@color/purple_200"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Annuler " />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
+
+
+

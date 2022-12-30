@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Malek/OneDrive/Bureau/KDB/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Malek/OneDrive/Bureau/KDB/app/src/main/res/layout/activity_main_activity2client.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Malek/OneDrive/Bureau/KDB/app/src/main/res/layout/activity_main_activity3contrat.xml" value="0.2246376811594203" />
+        <entry key="..\:/Users/Malek/OneDrive/Bureau/KDR/app/src/main/res/layout/activity_detail_client.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Malek/OneDrive/Bureau/KDR/app/src/main/res/layout/activity_main.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/Malek/OneDrive/Bureau/KDR/app/src/main/res/layout/activity_main_activity2_liste_contrat.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/Malek/OneDrive/Bureau/KDR/app/src/main/res/layout/activity_main_activity2_recherche_client.xml" value="0.18795289855072464" />
+        <entry key="..\:/Users/Malek/OneDrive/Bureau/KDR/app/src/main/res/layout/activity_main_activity2client.xml" value="0.25" />
+        <entry key="..\:/Users/Malek/OneDrive/Bureau/KDR/app/src/main/res/layout/activity_main_activity3contrat.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Malek/OneDrive/Bureau/KDR/app/src/main/res/layout/activity_main_activitydetail_contrat.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Malek/OneDrive/Bureau/KDR/app/src/main/res/layout/activity_main_rech_client_contrat.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/Malek/OneDrive/Bureau/KDR/app/src/main/res/layout/item.xml" value="0.264" />
+        <entry key="..\:/Users/Malek/OneDrive/Bureau/KDR/app/src/main/res/layout/itemcontrat.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
